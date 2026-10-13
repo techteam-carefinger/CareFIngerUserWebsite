@@ -41,8 +41,7 @@ p {
 
 h1,
 h2,
-.price,
-.logo span {
+.price {
   font-family: var(--serif);
   font-weight: 560;
   letter-spacing: -0.03em;
@@ -124,7 +123,7 @@ select {
 .nav-inner {
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
-  min-height: 76px;
+  min-height: 124px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -132,20 +131,31 @@ select {
 }
 
 .logo {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--teal-deep);
-  font-size: 1.35rem;
+  display: block;
+  width: 126px;
+  height: 110px;
+  overflow: hidden;
+  line-height: 0;
 }
 
-.logo svg {
-  width: 36px;
-  height: 36px;
+.logo img {
+  width: 184px;
+  max-width: none;
+  height: 184px;
+  margin: -24px 0 0 -31px;
 }
 
 .logo-light {
-  color: var(--cream);
+  width: 104px;
+  height: 92px;
+  border-radius: 14px;
+  background: var(--cream);
+}
+
+.logo-light img {
+  width: 151px;
+  height: 151px;
+  margin: -19px 0 0 -25px;
 }
 
 .nav-links {
@@ -1039,7 +1049,7 @@ select:focus {
 }
 
 [id] {
-  scroll-margin-top: 88px;
+  scroll-margin-top: 132px;
 }
 
 @media (max-width: 1100px) {
@@ -1064,7 +1074,7 @@ select:focus {
   .nav-links {
     display: none;
     position: absolute;
-    top: 76px;
+    top: 124px;
     left: 0;
     right: 0;
     padding: 12px 20px 20px;
