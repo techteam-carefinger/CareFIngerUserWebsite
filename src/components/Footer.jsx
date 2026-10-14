@@ -11,7 +11,7 @@ export default function Footer() {
           <p className="footer-lead">
             Healthcare assistance. Hospital support. Care assistance.
           </p>
-          <p className="footer-lead">When you can’t be there, we are.</p>
+          <p className="footer-lead">When no one is there, we are.</p>
         </div>
         <div>
           <h2>Explore</h2>
@@ -35,7 +35,7 @@ export default function Footer() {
       </div>
       <div className="wrap footer-bar">
         <span>© 2026 Carefinger. All rights reserved.</span>
-        <span>When you can’t be there, we are.</span>
+        <span>When no one is there, we are.</span>
       </div>
     </footer>
   )

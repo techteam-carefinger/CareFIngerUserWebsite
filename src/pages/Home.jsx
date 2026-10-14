@@ -20,7 +20,7 @@ export default function Home() {
         <div>
           <p className="eyebrow">Healthcare and hospital assistance at your fingertips</p>
           <h1>
-            When you can’t be there, <em>we are.</em>
+            When no one is there, <em>we are.</em>
           </h1>
           <p className="lede">
             When your loved one needs to visit a hospital, doctor, diagnostic centre, or
@@ -238,7 +238,7 @@ export default function Home() {
       <section className="final wrap">
         <p className="eyebrow">Ready to have a helping hand?</p>
         <h2>Download Carefinger today.</h2>
-        <p>When you can’t be there, we are.</p>
+        <p>When no one is there, we are.</p>
         <StoreButtons />
         <p className="support-line">
           Need assistance? <a href={`mailto:${supportEmail}`}>{supportEmail}</a>

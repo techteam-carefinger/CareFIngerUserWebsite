@@ -123,10 +123,10 @@ export const founders = [
     email: 'prathnakarn@carefinger.com',
   },
   {
-    name: 'Sushilk Kumar',
+    name: 'Sushil Kumar',
     role: 'Co-Founder',
     experience: '15 years of experience in administration, HR and management',
-    text: 'Sushilk brings extensive experience in administration, human resources, operations and management. His focus is on building strong operational processes, people management systems and service standards to support the Carefinger ecosystem.',
+    text: 'Sushil brings extensive experience in administration, human resources, operations and management. His focus is on building strong operational processes, people management systems and service standards to support the Carefinger ecosystem.',
     email: 'sushilkumar@carefinger.com',
   },
 ]
